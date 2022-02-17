@@ -6,15 +6,60 @@
 	<body>
 		<h1>Hello World Code</h1>
 		<main>
-			<div class="section" id="sec1">
-				<h2>Trying Things Out</h2>
-					<p>This page will probably link to other things I have done. </p>
-					<p>Here are my top three favorite projects</p>
-					<ul>
-						<li>Project <a href="#"> Number One </a></li>
-						<li>Project <a href="#">Number Two</a></li>
-					</ul>
-					<p>Another intention of this page will be to effectively format it. Clearly, the appropriate CSS and JS files will be in this folder, and linked in the html head.</p>
+			<div class="section" id="sec1" style="background-color: #d2c8ff;">
+				<h2 style="color: brown;">Trying Things Out</h2>
+				<p>This page will probably link to other things I have done. </p>
+				<p>Here are my top three favorite projects</p>
+				<ul>
+					<li>Project <a href="Project-Link.html"> Number One </a></li>
+					<li>Project <a href="Project-Link.html">Number Two</a></li>
+					<li>Project <a href="Project-Link.html">Number Three</a></li>
+				</ul>
+				<p>When I want to link to another author's work, I might create a link that <a href="#" target="_blank">opens a new tab</a>.</p>
+			</div>
+			<div class="section" id="sec2" style="background-color: #d2c8ff;">
+				<h2>Submitting Information in a form</h2>
+				<p>Another intention of this page will be to effectively format it. Clearly, the appropriate CSS and JS files will be in this folder, and linked in the html head.</p>
+				<div class="interactive" id="sec2-1">
+					<h3>Enter Ideas Here:</h3>
+					<p class="note-text">Note that you must enter an idea before pressing submit.</p>
+					<form action="Form-Redirect1.html">
+						<div class="interactive" id="sec2-1-1">
+							Required Field:<input type="text" name="title" placeholder="Idea title: not optional" required><br>
+							Optional Field: <input type="text" placeholder="Optional Information"><br><br>
+						</div>
+						<div class="interactive" id="sec2-1-2">
+							Choose your favorite option:<br>
+							<label for="one">
+								<input id="one" type="radio" name="favorite-number" value="one"> One
+							</label><br>
+							<label for="two">
+								<input id="two" type="radio" name="favorite-number" value="two">Two
+							</label><br>
+							<label for="three">
+								<input id="three" type="radio" name="favorite-number" value="three">Three
+							</label><br><br>
+							Choose all the options you like:<br>
+							<label for="ice-cream">
+								<input id="ice-cream" type="checkbox" name="food" value="ice-cream"> Ice Cream
+							</label><br>
+							<label for="pizza">
+								<input id="pizza"type="checkbox" name="food" value="pizza">Pizza
+							</label><br>
+							<label for="sushi">
+								<input id="sushi"type="checkbox" name="food" value="sushi">Sushi
+							</label><br>
+							<label for="onions">
+								<input id="onions"type="checkbox" name="food" value="onions">Onions
+							</label><br><br>
+							<p class="sidebar">Uncheck this box if you want to continue:
+							<label for="consent">
+								<input id="consent"type="checkbox" name="continue" value="consent" checked>
+							</label></p><br>
+						</div>
+						<button type="submit">ENTER</button>
+					</form>
+				</div>
 			</div>
 		</main>
 	</body>
