@@ -7,3 +7,6 @@ x = np.linspace(0,1,11)
 y = x  * x
 
 plt.plot(x,y)
+
+print(x)
+print(y)
