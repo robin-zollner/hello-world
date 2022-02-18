@@ -4,10 +4,48 @@
 		<title>Test Portfolio</title>
 	</head>
 	<body>
-		<h1>Hello World Code</h1>
+		<style type="text/css">
+			:root {
+				--main-bg:  #d2c8ff;
+				--second-bg: #d1dcff;
+			}
+			body{
+				background-color: var(--main-bg);
+			}
+			h2{
+				color:  black;
+			}
+
+			.title{
+				font-size: 20px;
+				width: 325px;
+				text-align: center;
+				border-style: double;
+			}
+
+			.section{
+			}
+
+			.interactive{
+				text-align: center;
+				background-color: var(--second-bg);
+			}
+
+			#sec2-1{
+				border-style: dashed;
+				border-width: 2px;
+				border-radius: 25px;
+			}
+			h3{
+			}
+		</style>
+		<div class="title" id="sec0">
+			<h1>Hello World Code</h1>
+		</div>
 		<main>
-			<div class="section" id="sec1" style="background-color: #d2c8ff;">
-				<h2 style="color: brown;">Trying Things Out</h2>
+			<!--div class="section" id="sec1" style="background-color: #d2c8ff;"-->
+			<div class="section" id="sec1">
+				<h2>Trying Things Out</h2>
 				<p>This page will probably link to other things I have done. </p>
 				<p>Here are my top three favorite projects</p>
 				<ul>
@@ -17,7 +55,8 @@
 				</ul>
 				<p>When I want to link to another author's work, I might create a link that <a href="#" target="_blank">opens a new tab</a>.</p>
 			</div>
-			<div class="section" id="sec2" style="background-color: #d2c8ff;">
+			<!--div class="section" id="sec2" style="background-color: #d2c8ff;"-->
+			<div class="section" id="sec2">
 				<h2>Submitting Information in a form</h2>
 				<p>Another intention of this page will be to effectively format it. Clearly, the appropriate CSS and JS files will be in this folder, and linked in the html head.</p>
 				<div class="interactive" id="sec2-1">
