@@ -1,0 +1,42 @@
+[
+ {
+   "Interest_Rate": 5,
+   "Stock_Index_Price": 1500
+ },
+ {
+   "Interest_Rate": 5.5,
+   "Stock_Index_Price": 1520
+ },
+ {
+   "Interest_Rate": 6,
+   "Stock_Index_Price": 1525
+ },
+ {
+   "Interest_Rate": 5.5,
+   "Stock_Index_Price": 1523
+ },
+ {
+   "Interest_Rate": 5.25,
+   "Stock_Index_Price": 1515
+ },
+ {
+   "Interest_Rate": 6.5,
+   "Stock_Index_Price": 1540
+ },
+ {
+   "Interest_Rate": 7,
+   "Stock_Index_Price": 1545
+ },
+ {
+   "Interest_Rate": 8,
+   "Stock_Index_Price": 1560
+ },
+ {
+   "Interest_Rate": 7.5,
+   "Stock_Index_Price": 1555
+ },
+ {
+   "Interest_Rate": 8.5,
+   "Stock_Index_Price": 1565
+ }
+]
