@@ -1,0 +1,18 @@
+[
+    {
+        "Product":"Desktop Computer",
+        "Price":700
+    },
+    {
+        "Product":"Tablet",
+        "Price":250
+    },
+    {
+        "Product":"iPhone",
+        "Price":800
+    },
+    {
+        "Product":"Laptop",
+        "Price":1200
+    }
+]

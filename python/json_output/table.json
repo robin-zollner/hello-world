@@ -1,0 +1,44 @@
+{
+    "schema":{
+        "fields":[
+            {
+                "name":"index",
+                "type":"integer"
+            },
+            {
+                "name":"Product",
+                "type":"string"
+            },
+            {
+                "name":"Price",
+                "type":"integer"
+            }
+        ],
+        "primaryKey":[
+            "index"
+        ],
+        "pandas_version":"0.20.0"
+    },
+    "data":[
+        {
+            "index":0,
+            "Product":"Desktop Computer",
+            "Price":700
+        },
+        {
+            "index":1,
+            "Product":"Tablet",
+            "Price":250
+        },
+        {
+            "index":2,
+            "Product":"iPhone",
+            "Price":800
+        },
+        {
+            "index":3,
+            "Product":"Laptop",
+            "Price":1200
+        }
+    ]
+}

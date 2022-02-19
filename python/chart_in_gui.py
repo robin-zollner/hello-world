@@ -18,21 +18,30 @@ root = tk.Tk()
 figframe = tk.Frame(root).pack(side=tk.TOP, fill=tk.BOTH)
 uiframe = tk.Frame(root).pack(side=tk.TOP, fill=tk.BOTH)
 
-# Create Button Command Functions
+## Creating necessary functions
+
+# button for displaying message box
 def readText():
 	input_text = e1.get()
 	msg = tk.messagebox.showinfo("Entered Text", input_text)
-	print(input_text)
+	#print(input_text)
+
+# displays entered text
+def displayText(event):
+	input_text = e1.get()
+	l2.configure(text = "You wrote:" + input_text)
 
 # adding UI elements
 b1 = tk.Button(uiframe, text="Quit", command=root.quit).pack(side=tk.TOP)#, fill='x')
-l1 = tk.Label(uiframe, text="Enter Text:").pack(side=tk.TOP)#, fill='x')
+l1 = tk.Label(uiframe, text="Enter Text:").pack(side=tk.TOP,fill='x')
 e1 = tk.Entry(uiframe,bd=5, textvariable="StringVar")
+e1.bind("<Return>", displayText)
 e1.pack(side=tk.TOP)#, fill='x')
-input_text = '';
-print(e1.get())
+input_text = ''
+#print(e1.get())
 b2 = tk.Button(uiframe, text="Read Entry Text", command = readText).pack(side=tk.TOP)
-l2 = tk.Label(uiframe, text=input_text).pack(side=tk.TOP, fill='x')
+l2 = tk.Label(uiframe, text=input_text)
+l2.pack(side=tk.TOP, fill='x')
 
 
 # First Figure
