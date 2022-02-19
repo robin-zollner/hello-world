@@ -1,0 +1,42 @@
+[
+ {
+   "Year": 1920,
+   "Unemployment_Rate": 9.8
+ },
+ {
+   "Year": 1930,
+   "Unemployment_Rate": 12
+ },
+ {
+   "Year": 1940,
+   "Unemployment_Rate": 8
+ },
+ {
+   "Year": 1950,
+   "Unemployment_Rate": 7.2
+ },
+ {
+   "Year": 1960,
+   "Unemployment_Rate": 6.9
+ },
+ {
+   "Year": 1970,
+   "Unemployment_Rate": 7
+ },
+ {
+   "Year": 1980,
+   "Unemployment_Rate": 6.5
+ },
+ {
+   "Year": 1990,
+   "Unemployment_Rate": 6.2
+ },
+ {
+   "Year": 2000,
+   "Unemployment_Rate": 5.5
+ },
+ {
+   "Year": 2010,
+   "Unemployment_Rate": 6.3
+ }
+]

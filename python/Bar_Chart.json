@@ -1,0 +1,22 @@
+[
+    {
+      "Country": "US",
+      "GDP_Per_Capita": 45000
+    },
+    {
+      "Country": "CA",
+      "GDP_Per_Capita": 42000
+    },
+    {
+      "Country": "GER",
+      "GDP_Per_Capita": 52000
+    },
+    {
+      "Country": "UK",
+      "GDP_Per_Capita": 49000
+    },
+    {
+      "Country": "FR",
+      "GDP_Per_Capita": 47000
+    }
+]

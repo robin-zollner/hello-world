@@ -26,13 +26,13 @@ pygame.init()
  
 # Set the width and height of the screen [width, height]
 print("Enter desired grid size")
-grid_size = int(input())
+grid_size = 25#int(input())
 pxls = grid_size * 25
 size = (pxls, pxls)
 screen = pygame.display.set_mode(size)
 width = 20
 height = 20
-margin = 0
+margin = 1
 
 
 # Click Behaivor
