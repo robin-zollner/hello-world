@@ -3,7 +3,7 @@
 				--second-bg: #d1dcff;
 			}
 			body{
-				background-color: blueviolet;
+				background-color: var(--main-bg);
 			}
 			h2{
 				color:  black;
@@ -17,6 +17,11 @@
 			}
 
 			.section{
+
+				border-style: dotted;
+				border-color: var(--second-bg);
+				font-family: fantasy;
+			
 			}
 
 			.interactive{
