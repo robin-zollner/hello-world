@@ -1,0 +1,36 @@
+:root {
+				--main-bg:  #d2c8ff;
+				--second-bg: #d1dcff;
+			}
+			body{
+				background-color: blueviolet;
+			}
+			h2{
+				color:  black;
+			}
+
+			.title{
+				font-size: 20px;
+				width: 325px;
+				text-align: center;
+				border-style: double;
+			}
+
+			.section{
+			}
+
+			.interactive{
+				text-align: center;
+				background-color: var(--second-bg);
+			}
+
+			#sec2-1{
+				border-style: dashed;
+				border-width: 2px;
+				border-radius: 25px;
+			}
+			
+			h3{
+				text-align: center;
+				color: rgba(20, 100, 20);
+			}
