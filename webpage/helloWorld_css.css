@@ -17,24 +17,29 @@
 			}
 
 			.section{
-
-				border-style: dotted;
+				border-style: solid;
 				border-color: var(--second-bg);
 				font-family: fantasy;
 			
 			}
 
-			.interactive{
+			.HiLevel{
 				text-align: center;
 				background-color: var(--second-bg);
-			}
-
-			#sec2-1{
 				border-style: dashed;
 				border-width: 2px;
 				border-radius: 25px;
+			}
+
+			#sec2-1{
+				font-variant-caps: all-small-caps;
 			}
 			
 			h3{
 				text-align: center;
 				color: rgba(20, 100, 20);
+			}
+
+			p:hover{
+				text-decoration: underline;
+			}
