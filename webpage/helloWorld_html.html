@@ -3,6 +3,7 @@
 	<head>
 		<title>Test Portfolio</title>
 		<link rel="stylesheet" href="helloWorld_css.css">
+		<script src="helloWorld_js.js"></script>
 	</head>
 	<body>
 		<!--style type="text/css">
@@ -60,12 +61,13 @@
 			<div class="section" id="sec2">
 				<h2>Submitting Information in a form</h2>
 				<p>Another intention of this page will be to effectively format it. Clearly, the appropriate CSS and JS files will be in this folder, and linked in the html head.</p>
-				<div class="interactive" id="sec2-1">
+
+				<div class="interactive HiLevel" id="sec2-1">
 					<h3>Enter Ideas Here:</h3>
 					<p class="note-text">Note that you must enter an idea before pressing submit.</p>
 					<form action="Form-Redirect1.html">
 						<div class="interactive" id="sec2-1-1">
-							Required Field:<input type="text" name="title" placeholder="Idea title: not optional" required><br>
+							Required Field:<input id="input1" type="text" name="title" placeholder="Idea title: not optional" required><br>
 							Optional Field: <input type="text" placeholder="Optional Information"><br><br>
 						</div>
 						<div class="interactive" id="sec2-1-2">
@@ -98,6 +100,15 @@
 							</label></p><br>
 						</div>
 						<button type="submit">ENTER</button>
+					</form>
+				</div>
+			</div>
+			<div class="section" id= "sec3">
+				<div class="interactive HiLevel" id="sec3-1">
+					<form action="Form-Redirect2.html">
+						<h3>This is another form:</h3>
+						<button type="submit">Submission</button>
+
 					</form>
 				</div>
 			</div>
