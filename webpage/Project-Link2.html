@@ -1,0 +1,53 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="helloWorld_css.css">
+	<title>Project-Link2</title>
+
+</head>
+<body>
+	<div class="title"><h1>What can JavaScript do?</h1></div>
+		<p>These sections are following the JavaScript introduction in w3schools. However, all assets are of my own creation.</p>
+	<div class="page HiLevel" id="project2">
+
+	
+		<div class="section interactive" id="p2sec1">
+			<h2>JavaScript in Body</h2>
+				<p id="default">This is a default paragraph</p>
+				<button type="button" onclick='document.getElementById("default").innerHTML = "This is a different paragraph."'>Click Me!</button>
+		</div>
+
+		<div class="section interactive" id="p2sec2">
+			<h2>What else can JavaScript Do?</h2>
+				<p id="quote-types">JavaScript can accept both single and double quotes as string literals. <br> You can also set the event the button is listening for.</p>
+				<button type="button" ondblclick="document.getElementById('quote-types').innerHTML = 'This is yet another paragraph'">Double Click Me</button>
+		</div>
+
+		<div class="section interactive" id="p2sec3">
+			<h2>JavaScript changing Images</h2>
+				<p>JavaScript can change html attribute values. <br> This means that it is not limited to just text. You can change the src (source) attribute of an image tag.</p>
+
+				<button onclick="document.getElementById('face').src='img_face_sad.png.lnk'">Make Mike Sad</button>
+
+				<img src="img_face_happy.png.lnk" id="face" style="width:300px;">
+
+				<button onclick="document.getElementById('face').src='img_face_happy.png.lnk'">Make Mike Happy</button-->
+		</div>
+
+		<div class="section interactive" id="p2sec4">
+			<h2>JavaScript changing HTML styles</h2>
+				<p id="change-css">I made Mike in a program called Blender. These images are just rendered stills from a full animation.<br> Blender is an excellent tool for both 2D and 3D animation, however, it is easier to draw images in Procreate on the ipad</p>
+				<button onclick="document.getElementById('change-css').style.fontFamily='serif'">Fuck you <br> don't press me</button>
+		</div>
+	</div>
+
+
+	<footer>
+		<p id="navigation"><a href="helloWorld_html.html">Go Home</a></p>
+	</footer>
+	
+
+</body>
+</html>
