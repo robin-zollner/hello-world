@@ -24,6 +24,7 @@
 				text-align: center;
 				border-style: double;
 				font-family: var(--title-font);
+				background-color: var(--second-bg);
 			}
 
 			.section{
