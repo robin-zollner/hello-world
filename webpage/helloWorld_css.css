@@ -1,25 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Fredoka&family=Sacramento&display=swap');
+
 :root {
 				--main-bg:  #d2c8ff;
 				--second-bg: #d1dcff;
+				--emp-color: rgba(20, 100, 20);
+				--title-font: 'El Messiri', sans-serif;
+				--text-font:  'Fredoka', sans-serif;
+				--emp-font:  'Sacramento', cursive;
 			}
 			body{
 				background-color: var(--main-bg);
+				margin-left: 200px;
+				margin-right: 200px;
 			}
 			h2{
 				color:  black;
+				font-family: var(--title-font);
 			}
 
 			.title{
 				font-size: 20px;
-				width: 325px;
+				/*width: 325px;*/
 				text-align: center;
 				border-style: double;
+				font-family: var(--title-font);
+				background-color: var(--second-bg);
 			}
 
 			.section{
-				border-style: solid;
-				border-color: var(--second-bg);
-				font-family: fantasy;
+				/*border-style: solid;
+				border-color: var(--second-bg);*/
+				font-family: var(--text-font);
 			
 			}
 
@@ -29,17 +40,28 @@
 				border-style: dashed;
 				border-width: 2px;
 				border-radius: 25px;
+				border-color: black;
+				margin: 10px;
+				padding-bottom: 10px;
 			}
 
 			#sec2-1{
 				font-variant-caps: all-small-caps;
 			}
 			
+
 			h3{
 				text-align: center;
 				color: rgba(20, 100, 20);
+				font-family: var(--title-font);
 			}
 
 			p:hover{
-				text-decoration: underline;
+				background-color: black;
+				color: var(--second-bg);
+			}
+
+			a:hover{
+				background-color: black;
+				color: var(--main-bg);
 			}
