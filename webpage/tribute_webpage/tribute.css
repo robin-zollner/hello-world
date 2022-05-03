@@ -1,4 +1,14 @@
-body{
-	background-color: black;
-	color: white;
+h1 {
+  color: blue;
+}
+#image {
+  max-width: 100%;
+  width: 75vw;
+  height: auto;
+}
+#img-div{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
 }
