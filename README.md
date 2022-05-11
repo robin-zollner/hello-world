@@ -1,5 +1,21 @@
 # hello-world -- A novice coder's portfolio
 
+## 2022_05_11 Update
+* Since starting this repo, I have gotten a new computer. I have not yet replaced the windows os on this machine, so there is less focus on scripting, unless I can learn the windows commands. _This'll be hard b/c I like unix commands_
+* I have been using this repository as a place to collectively hold all of my coding adventures, be that scratch code, for a one-off calculation, or creating  projectes inspired by the lessons at freecodecamp.org and at W3 schools.
+* Here is a summary folders within this repo as it stands now. *italicized script will have descriptions of the folder's purpose*
+
+### Repository Tree
+* hello-world *This is the the current directory*
+  * bash_scripting *A place to test bash scripting. Most useful in linux environments.*
+    * test1.sh *implements simple GUI interface*
+  * docs *folder for git webpage. Have yet to figure out how this works*
+    * _config.yml
+  * python
+  * Testing_Sublime_Capabilities
+  * tribute-webpage
+  * webpage
+
 ## 2022_02_18_Edits
 * I am now making this a public repository, just in case I 
   *  loose access to this email address
