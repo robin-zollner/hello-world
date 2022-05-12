@@ -8,10 +8,25 @@
 ### Repository Tree
 * hello-world *This is the the current directory*
   * bash_scripting *A place to test bash scripting. Most useful in linux environments.*
-    * test1.sh *implements simple GUI interface*
+    * > test1.sh *implements simple GUI interface*
   * docs *folder for git webpage. Have yet to figure out how this works*
-    * _config.yml
-  * python
+    *  > _config.yml
+  * python *my most commonly used language*
+    * fizzbuzz
+      * > fizzbuz.py
+      * > fizzbuzzswitch.py
+    * json_output
+      * > columns.json
+      * > index.json
+      * > records.json
+      * > split.json
+      * > table.json
+      * > test1.json
+      * > values.json
+    * math_stuff
+    * Pathlib_test
+      * file1.py
+    * personality-test *this is a folder*
   * Testing_Sublime_Capabilities
   * tribute-webpage
   * webpage
