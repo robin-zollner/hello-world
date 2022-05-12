@@ -6,30 +6,41 @@
 * Here is a summary folders within this repo as it stands now. *italicized script will have descriptions of the folder's purpose*
 
 ### Repository Tree
-* hello-world *This is the the current directory*
-  * bash_scripting *A place to test bash scripting. Most useful in linux environments.*
-    * > test1.sh *implements simple GUI interface*
-  * docs *folder for git webpage. Have yet to figure out how this works*
-    *  > _config.yml
-  * python *my most commonly used language*
+* hello-world *`This is the the current directory`*
+  * bash_scripting *`A place to test bash scripting. Most useful in linux environments.`*
+    * *test1.sh* *`implements simple GUI interface`*
+  * docs *`folder for git webpage. Have yet to figure out how this works`*
+    * *_config.yml*
+  * python *`my most commonly used language`*
     * fizzbuzz
-      * > fizzbuz.py
-      * > fizzbuzzswitch.py
+      * *fizzbuz.py*
+      * *fizzbuzzswitch.py*
     * json_output
-      * > columns.json
-      * > index.json
-      * > records.json
-      * > split.json
-      * > table.json
-      * > test1.json
-      * > values.json
+      * *columns.json*
+      * *index.json*
+      * *records.json*
+      * *split.json*
+      * *table.json*
+      * *test1.json*
+      * *values.json*
     * math_stuff
     * Pathlib_test
       * file1.py
-    * personality-test *this is a folder*
-  * Testing_Sublime_Capabilities
-  * tribute-webpage
-  * webpage
+    * personality-test *`this is a folder`*
+    * webpage
+    * *Bar_Chart.csv*
+    * *Bar_Chart.json*
+    * *binary_tree_maze.py*
+    * *calc_gui.py*
+    * *chart_in_gui.py*
+    * *exporting-to-json.py*
+    * *interactive-gui-attemppt01.py*
+    * *interactive-gui-attemppt02.py*
+    * *Line_Chart_Data*
+    * *Line_Chart_Data.json*
+    * *python-test.py*
+    * *python-test2.py*
+    * *Scatter_Chart_Data.json*
 
 ## 2022_02_18_Edits
 * I am now making this a public repository, just in case I 
