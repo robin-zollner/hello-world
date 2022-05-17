@@ -1,4 +1,8 @@
 # hello-world -- A novice coder's portfolio
+## 2022_05_14 Update
+* This is a portfolio, the majority of it is in python code.
+* The python folder has lots of different files I have used to experiment. 
+* `Certificaitons` folder is a place to look for courses completed.
 
 ## 2022_05_11 Update
 * Since starting this repo, I have gotten a new computer. I have not yet replaced the windows os on this machine, so there is less focus on scripting, unless I can learn the windows commands. _This'll be hard b/c I like unix commands_
