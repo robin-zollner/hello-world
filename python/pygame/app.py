@@ -29,7 +29,7 @@ def side_len(x1, y1, x2, y2):
     ln = sqrt(xdif2 + ydif2)
     return ln.real
 
-def get30(x1=0, y1=0, len=1):
+# def get30(x1=0, y1=0, len=1):
           
 
 def toStr(arr):
@@ -48,7 +48,7 @@ img1 = font.render(str(side1len), True, Colors.MAGENTA)
 run = True
 
 while run:
-    textloc = textloc1, textloc2, textloc3 = (tx1, ty1), (tx2, ty2), (tx3, ty3) = (width/2, height-150), (width/2, height-100),(width/2, height-50) 
+    textloc = textloc1, textloc2, textloc3 = (tx1, ty1), (tx2, ty2), (tx3, ty3) = (width/2, height-100), (width/2, height-50),(width/2, height-20) 
     keys = pygame.key.get_pressed()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
