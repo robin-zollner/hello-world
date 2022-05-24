@@ -29,26 +29,30 @@ def side_len(x1, y1, x2, y2):
     ln = sqrt(xdif2 + ydif2)
     return ln.real
 
-sidelen = side1len, side2len, side3len = side_len(x1, y1, x2, y2), side_len(x1, y1, x3, y3), side_len(x2, y2, x3, y3)
-print(side1len, side2len, side3len, sep='\n', end='\n\n')
-for sl in side_len:
-    sl = str(sl)
-print(side1len.type)
-print(side_len, sep='*\n', end='**\n\n')
+def get30(x1=0, y1=0, len=1):
+          
+
+def toStr(arr):
+    for a in arr:
+        a = str(a)
+    return arr
+sidelen = [side1len, side2len, side3len] = [side_len(x1, y1, x2, y2), side_len(x1, y1, x3, y3), side_len(x2, y2, x3, y3)]
+
+sidelenSTR = toStr(sidelen)
+
+print(sidelen, side1len, side2len, side3len, sep='*\n', end='**\n\n')
+
 font = pygame.font.SysFont(None, 20)
-img1 = font.render(side1len, True, Colors.MAGENTA)
-img2 = font.render(side2len, True, Colors.MAGENTA)
-img3 = font.render(side3len, True, Colors.MAGENTA)
+img1 = font.render(str(side1len), True, Colors.MAGENTA)
 
 run = True
 
-textloc = textloc1, textloc2, textloc3 = (tx1, ty1), (tx2, ty2), (tx3, ty3) = (width/2, height-150), (width/2, height-100),(width/2, height-50) 
 while run:
+    textloc = textloc1, textloc2, textloc3 = (tx1, ty1), (tx2, ty2), (tx3, ty3) = (width/2, height-150), (width/2, height-100),(width/2, height-50) 
+    keys = pygame.key.get_pressed()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
-        elif event.type == pygame.K_a:
-            tx1-=5
         else:
             screen.fill(Colors.BLACK)
             pygame.draw.rect(screen, Colors.GREEN, pygame.Rect(30, 30, 60, 60))
