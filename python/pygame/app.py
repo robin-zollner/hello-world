@@ -19,7 +19,6 @@ speed = [2, 2]
 black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
-
 x1, y1 = 200, 25
 x2, y2 = 180 , 55
 x3, y3 = 220, 55
