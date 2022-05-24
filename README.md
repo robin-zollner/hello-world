@@ -1,35 +1,51 @@
 # hello-world -- A novice coder's portfolio
+## 2022_05_14 Update
+* This is a portfolio, the majority of it is in python code.
+* The python folder has lots of different files I have used to experiment. 
+* `Certificaitons` folder is a place to look for courses completed.
 
 ## 2022_05_11 Update
 * Since starting this repo, I have gotten a new computer. I have not yet replaced the windows os on this machine, so there is less focus on scripting, unless I can learn the windows commands. _This'll be hard b/c I like unix commands_
 * I have been using this repository as a place to collectively hold all of my coding adventures, be that scratch code, for a one-off calculation, or creating  projectes inspired by the lessons at freecodecamp.org and at W3 schools.
-* Here is a summary folders within this repo as it stands now. *italicized script will have descriptions of the folder's purpose*
 
 ### Repository Tree
-* hello-world *This is the the current directory*
-  * bash_scripting *A place to test bash scripting. Most useful in linux environments.*
-    * > test1.sh *implements simple GUI interface*
-  * docs *folder for git webpage. Have yet to figure out how this works*
-    *  > _config.yml
-  * python *my most commonly used language*
+Here is a summary folders within this repo as it stands now. *`This formatting will have descriptions of the folder's purpose`*
+
+* hello-world *`This is the the current directory`*
+  * bash_scripting *`A place to test bash scripting. Most useful in linux environments.`*
+    * *test1.sh* *`implements simple GUI interface`*
+  * docs *`folder for git webpage. Have yet to figure out how this works`*
+    * *_config.yml*
+  * python *`my most commonly used language`*
     * fizzbuzz
-      * > fizzbuz.py
-      * > fizzbuzzswitch.py
+      * *fizzbuz.py*
+      * *fizzbuzzswitch.py*
     * json_output
-      * > columns.json
-      * > index.json
-      * > records.json
-      * > split.json
-      * > table.json
-      * > test1.json
-      * > values.json
+      * *columns.json*
+      * *index.json*
+      * *records.json*
+      * *split.json*
+      * *table.json*
+      * *test1.json*
+      * *values.json*
     * math_stuff
     * Pathlib_test
       * file1.py
-    * personality-test *this is a folder*
-  * Testing_Sublime_Capabilities
-  * tribute-webpage
-  * webpage
+    * personality-test *`this is a folder`*
+    * webpage
+    * *Bar_Chart.csv*
+    * *Bar_Chart.json*
+    * *binary_tree_maze.py*
+    * *calc_gui.py*
+    * *chart_in_gui.py*
+    * *exporting-to-json.py*
+    * *interactive-gui-attemppt01.py*
+    * *interactive-gui-attemppt02.py*
+    * *Line_Chart_Data*
+    * *Line_Chart_Data.json*
+    * *python-test.py*
+    * *python-test2.py*
+    * *Scatter_Chart_Data.json*
 
 ## 2022_02_18_Edits
 * I am now making this a public repository, just in case I 
