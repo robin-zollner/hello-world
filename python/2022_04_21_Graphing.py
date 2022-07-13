@@ -33,7 +33,7 @@ e1 = tk.Entry(uiElments, bd=5, textvariable="StringVar").pack(side=tk.TOP)
 
 fig = plt.figure()
 har = FigureCanvasTkAgg(fig, figframe)
-har.get_tk_widget().pack(side=tk.LEFT, fil=tk.BOTH)
+har.get_tk_widget().pack(side=tk.LEFT, fill=tk.BOTH)
 plt.plot(a,b)
 plt.xlabel("Natural number (x)")
 plt.ylabel("Sum of the Harmonic Series (y)")
