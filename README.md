@@ -61,11 +61,6 @@ Here is a summary folders within this repo as it stands now. *`This formatting w
       * *table.json*
       * *test1.json*
       * *values.json*
-    * math_stuff
-    * Pathlib_test
-      * file1.py
-    * personality-test *`this is a folder`*
-    * webpage
     * *Bar_Chart.csv*
     * *Bar_Chart.json*
     * *binary_tree_maze.py*
@@ -79,6 +74,12 @@ Here is a summary folders within this repo as it stands now. *`This formatting w
     * *python-test.py*
     * *python-test2.py*
     * *Scatter_Chart_Data.json*
+    * math_stuff
+    * Pathlib_test
+      * file1.py
+    * personality-test *`this is a folder`*
+    * webpage
+
 
 ## 2022_02_18_Edits
 * I am now making this a public repository, just in case I 
