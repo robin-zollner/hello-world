@@ -3,7 +3,7 @@
 ## 2022_07_15 Update
 * Below is a copy of the tree command for this repo. I will format this better at a later date.
 * The first iteration of this list seems to compeltely ignore the entire HTML folder. 
-
+```bash
 └───hello-world
     ├───bash_scripting
     ├───docs
@@ -30,6 +30,7 @@
     ├───tribute-webpage
     └───webpage
         └───tribute_webpage
+```
 
 ## 2022_05_14 Update
 * This is a portfolio, the majority of it is in python code.
