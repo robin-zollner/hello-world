@@ -1,4 +1,36 @@
 # hello-world -- A novice coder's portfolio
+
+## 2022_07_15 Update
+* Below is a copy of the tree command for this repo. I will format this better at a later date.
+* The first iteration of this list seems to compeltely ignore the entire HTML folder. 
+
+└───hello-world
+    ├───bash_scripting
+    ├───docs
+    ├───hello-world
+    │   ├───bash_scripting
+    │   ├───docs
+    │   ├───python
+    │   │   ├───fizzbuzz
+    │   │   ├───json_output
+    │   │   ├───Pathlib_test
+    │   │   └───pygame
+    │   ├───tribute-webpage
+    │   └───webpage
+    │       └───tribute_webpage
+    ├───python
+    │   ├───fizzbuzz
+    │   ├───json_output
+    │   ├───math_stuff
+    │   ├───Pathlib_test
+    │   ├───personality-test
+    │   ├───pygame
+    │   └───testing_web_python
+    ├───Testing_Sublime_Capabilities
+    ├───tribute-webpage
+    └───webpage
+        └───tribute_webpage
+
 ## 2022_05_14 Update
 * This is a portfolio, the majority of it is in python code.
 * The python folder has lots of different files I have used to experiment. 
